@@ -6,11 +6,11 @@ backend:
   base_url: https://hausbau-cms-auth.michaelbrosius.workers.dev
   auth_endpoint: auth
 
-site_url: https://michael-brosius.github.io/unser-haus-entsteht/
-display_url: https://michael-brosius.github.io/unser-haus-entsteht/
+site_url: https://www.bauprojekt-brosius.de/
+display_url: https://www.bauprojekt-brosius.de/
 
 media_folder: "images/uploads"
-public_folder: "/unser-haus-entsteht/images/uploads"
+public_folder: "/images/uploads"
 
 locale: de
 
