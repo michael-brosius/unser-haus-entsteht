@@ -1,0 +1,64 @@
+
+backend:
+  name: github
+  repo: michael-brosius/unser-haus-entsteht
+  branch: main
+  base_url: https://hausbau-cms-auth.michaelbrosius.workers.dev
+  auth_endpoint: auth
+
+site_url: https://michael-brosius.github.io/unser-haus-entsteht/
+display_url: https://michael-brosius.github.io/unser-haus-entsteht/
+
+media_folder: "images/uploads"
+public_folder: "/unser-haus-entsteht/images/uploads"
+
+locale: de
+
+collections:
+  - name: "bautagebuch"
+    label: "Bautagebuch"
+    folder: "content/beitraege"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - label: "Überschrift"
+        name: "title"
+        widget: "string"
+
+      - label: "Datum"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+
+      - label: "Bauphase"
+        name: "phase"
+        widget: "select"
+        options:
+          - "Grundstückskauf"
+          - "Abriss"
+          - "Vorbereitung"
+          - "Erdarbeiten"
+          - "Fundament"
+          - "Rohbau"
+          - "Innenausbau"
+          - "Einzug"
+
+      - label: "Beitrag"
+        name: "body"
+        widget: "markdown"
+
+      - label: "Fotos"
+        name: "photos"
+        widget: "list"
+        required: false
+        field:
+          label: "Foto"
+          name: "image"
+          widget: "image"
+
+      - label: "YouTube-Link"
+        name: "youtube"
+        widget: "string"
+        required: false
