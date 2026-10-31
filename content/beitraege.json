@@ -4,9 +4,11 @@
     "title": "Unser erster Testeintrag",
     "date": "2026-10-31",
     "phase": "Vorbereitung",
-    "body": "Wir testen gerade unser neues Bautagebuch.",
-    "html": "<p>Wir testen gerade unser neues Bautagebuch.</p>",
-    "photos": [],
+    "body": "Wir testen gerade unser neues Bautagebuch. Test mit Bild!!!",
+    "html": "<p>Wir testen gerade unser neues Bautagebuch. Test mit Bild!!!</p>",
+    "photos": [
+      "/unser-haus-entsteht/images/uploads/93772_hl.jpg"
+    ],
     "youtube": ""
   }
 ]
