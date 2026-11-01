@@ -4,7 +4,7 @@ date: 2026-03-08
 phase: Abriss
 photos:
   - image: /images/uploads/abriss01.jpg
-    caption: ""
+    caption: Das Dach wird entfernt.
   - image: /images/uploads/abriss02.jpg
     caption: ""
 ---
