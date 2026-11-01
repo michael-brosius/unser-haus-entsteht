@@ -11,5 +11,18 @@
       "/images/uploads/93772_vl.jpg"
     ],
     "youtube": ""
+  },
+  {
+    "id": "2026-03-07-abriss-der-altimmobilie",
+    "title": "Abriss der Altimmobilie",
+    "date": "2026-03-08",
+    "phase": "Abriss",
+    "body": "Jetzt geht es los mit dem Abriss.",
+    "html": "<p>Jetzt geht es los mit dem Abriss.</p>",
+    "photos": [
+      "/images/uploads/img_1596.jpg",
+      "/images/uploads/img_1597.jpg"
+    ],
+    "youtube": ""
   }
 ]
