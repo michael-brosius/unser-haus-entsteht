@@ -4,7 +4,8 @@
   "gallery_images": [
     {
       "image": "/images/93772_hl(1).jpg",
-      "alt": "Rendering des geplanten Hauses"
+      "alt": "",
+      "caption": "KI-generierte Ansicht unseres Hauses."
     },
     {
       "image": "/images/93772_hr(1).jpg",
