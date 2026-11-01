@@ -19,7 +19,10 @@
     "phase": "Abriss",
     "body": "Jetzt geht es los mit dem Abriss.",
     "html": "<p>Jetzt geht es los mit dem Abriss.</p>",
-    "photos": [],
+    "photos": [
+      "/images/uploads/abriss01.jpg",
+      "/images/uploads/abriss02.jpg"
+    ],
     "youtube": ""
   }
 ]
