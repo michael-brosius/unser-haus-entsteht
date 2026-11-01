@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-10-29-vermessung-und-bodenproben",
+    "title": "Vermessung und Bodenproben",
+    "date": "2026-10-30",
+    "phase": "Vorbereitung",
+    "body": "Text",
+    "html": "<p>Text</p>",
+    "photos": [
+      "/images/uploads/vorbereitung02.jpg",
+      "/images/uploads/vorbereitung03.jpg",
+      "/images/uploads/vermessung03.jpg",
+      "/images/uploads/vorbereitung01.jpg"
+    ],
+    "youtube": ""
+  },
+  {
     "id": "2026-03-07-abriss-der-altimmobilie",
     "title": "Platz für etwas Neues.",
     "date": "2026-03-08",
