@@ -4,28 +4,33 @@
   "gallery_images": [
     {
       "image": "/images/93772_hl(1).jpg",
-      "alt": "",
-      "caption": "KI-generierte Ansicht unseres Hauses."
+      "alt": "Visualisierung unseres Hauses.",
+      "caption": "Visualisierung unseres Hauses."
     },
     {
       "image": "/images/93772_hr(1).jpg",
-      "alt": "Weitere Hausansicht"
+      "alt": "Visualisierung unseres Hauses.",
+      "caption": "Visualisierung unseres Hauses."
     },
     {
       "image": "/images/93772_vl(1).jpg",
-      "alt": "Weitere Hausansicht"
+      "alt": "Visualisierung unseres Hauses.",
+      "caption": "Visualisierung unseres Hauses."
     },
     {
       "image": "/images/93772_vr(1).jpg",
-      "alt": "Weitere Hausansicht"
+      "alt": "Visualisierung unseres Hauses.",
+      "caption": "Visualisierung unseres Hauses."
     },
     {
       "image": "/images/uploads/img_2359.jpg",
-      "alt": "Musterhaus in Bad Fallinbostel"
+      "alt": "Musterhaus in Bad Fallingbostel.",
+      "caption": "Musterhaus in Bad Fallingbostel."
     },
     {
       "image": "/images/uploads/img_2361.jpg",
-      "alt": "Musterhaus in Bad Fallinbostel"
+      "alt": "Musterhaus in Bad Fallingbostel.",
+      "caption": "Musterhaus in Bad Fallingbostel."
     }
   ],
   "intro_title": "Aus einer Idee wird\nein Zuhause.",
