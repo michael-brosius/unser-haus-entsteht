@@ -24,5 +24,17 @@
       "/images/uploads/abriss02.jpg"
     ],
     "youtube": ""
+  },
+  {
+    "id": "2025-10-14-grundstückskauf",
+    "title": "Grundstückskauf",
+    "date": "2025-10-15",
+    "phase": "Grundstückskauf",
+    "body": "Text...",
+    "html": "<p>Text...</p>",
+    "photos": [
+      "/images/uploads/grundstueck01.jpg"
+    ],
+    "youtube": ""
   }
 ]
