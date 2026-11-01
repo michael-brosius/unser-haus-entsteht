@@ -1,18 +1,5 @@
 [
   {
-    "id": "2026-10-30-unser-erster-testeintrag",
-    "title": "Unser erster Testeintrag",
-    "date": "2026-10-31",
-    "phase": "Vorbereitung",
-    "body": "Wir testen gerade unser neues Bautagebuch. Test mit Bild!!! Zwei Bilder.",
-    "html": "<p>Wir testen gerade unser neues Bautagebuch. Test mit Bild!!! Zwei Bilder.</p>",
-    "photos": [
-      "/unser-haus-entsteht/images/uploads/93772_hl.jpg",
-      "/images/uploads/93772_vl.jpg"
-    ],
-    "youtube": ""
-  },
-  {
     "id": "2026-03-07-abriss-der-altimmobilie",
     "title": "Platz für etwas Neues.",
     "date": "2026-03-08",
