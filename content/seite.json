@@ -1,0 +1,29 @@
+{
+  "hero_eyebrow": "Ein Haus. Eine Geschichte.",
+  "hero_title": "Unser Haus\nentsteht.",
+  "hero_subtitle": "Von der ersten Idee bis zum Einzug.\nWir nehmen euch mit auf unserem Weg.",
+  "intro_tag": "Willkommen auf unserem Bautagebuch",
+  "intro_title": "Aus einer Idee wird\nein Zuhause.",
+  "intro_text": "Hier halten wir die großen Meilensteine und die kleinen Momente unseres Hausbaus fest. Mit Bildern, Geschichten und allem, was unterwegs passiert.",
+  "gallery_tag": "UNSER ZUKÜNFTIGES HAUS · ORIGINAL-RENDERINGS",
+  "gallery_title": "So soll unser Haus einmal aussehen.",
+  "gallery_text": "Ein Blick in die Zukunft: Diese vier Visualisierungen zeigen, wie wir uns unser neues Zuhause vorstellen.",
+  "gallery_images": [
+    {
+      "image": "/images/93772_hl(1).jpg",
+      "alt": "Rendering des geplanten Hauses"
+    },
+    {
+      "image": "/images/93772_hr(1).jpg",
+      "alt": "Weitere Hausansicht"
+    },
+    {
+      "image": "/images/93772_vl(1).jpg",
+      "alt": "Weitere Hausansicht"
+    },
+    {
+      "image": "/images/93772_vr(1).jpg",
+      "alt": "Weitere Hausansicht"
+    }
+  ]
+}
