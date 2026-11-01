@@ -3,10 +3,14 @@ title: Jetzt wird’s langsam ernst!
 date: 2026-10-30
 phase: Vorbereitung
 photos:
-  - /images/uploads/vorbereitung02.jpg
-  - /images/uploads/vorbereitung03.jpg
-  - /images/uploads/vermessung03.jpg
-  - /images/uploads/vorbereitung01.jpg
+  - image: /images/uploads/vorbereitung02.jpg
+    caption: ""
+  - image: /images/uploads/vorbereitung03.jpg
+    caption: ""
+  - image: /images/uploads/vermessung03.jpg
+    caption: ""
+  - image: /images/uploads/vorbereitung01.jpg
+    caption: ""
 ---
 Noch rollen keine Bagger, aber auf unserem Grundstück tut sich etwas: Viebrockhaus ist zur Vermessung vor Ort und nimmt alles genau unter die Lupe. Schließlich muss für unser neues Zuhause jeder Zentimeter stimmen. 
 
