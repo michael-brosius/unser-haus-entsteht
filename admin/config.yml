@@ -62,3 +62,28 @@ collections:
         name: "youtube"
         widget: "string"
         required: false
+
+  - name: "webseite"
+    label: "Webseite bearbeiten"
+    files:
+      - name: "seite"
+        label: "Startseite und Galerie"
+        file: "content/seite.json"
+        format: "json"
+        fields:
+          - {label: "Kleine Überschrift im Titelbild", name: "hero_eyebrow", widget: "string"}
+          - {label: "Große Überschrift im Titelbild", name: "hero_title", widget: "text"}
+          - {label: "Untertitel im Titelbild", name: "hero_subtitle", widget: "text"}
+          - {label: "Einleitung – kleine Überschrift", name: "intro_tag", widget: "string"}
+          - {label: "Einleitung – große Überschrift", name: "intro_title", widget: "text"}
+          - {label: "Einleitung – Text", name: "intro_text", widget: "text"}
+          - {label: "Galerie – kleine Überschrift", name: "gallery_tag", widget: "string"}
+          - {label: "Galerie – große Überschrift", name: "gallery_title", widget: "string"}
+          - {label: "Galerie – Beschreibung", name: "gallery_text", widget: "text"}
+          - label: "Bilder der Hausgalerie (Reihenfolge per Drag & Drop)"
+            name: "gallery_images"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            fields:
+              - {label: "Bild", name: "image", widget: "image"}
+              - {label: "Bildbeschreibung", name: "alt", widget: "string", required: false}
