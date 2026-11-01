@@ -53,10 +53,15 @@ collections:
         name: "photos"
         widget: "list"
         required: false
-        field:
-          label: "Foto"
-          name: "image"
-          widget: "image"
+        summary: "{{fields.caption}}"
+        fields:
+          - label: "Foto"
+            name: "image"
+            widget: "image"
+          - label: "Bildunterschrift (nur in der Großansicht)"
+            name: "caption"
+            widget: "string"
+            required: false
 
       - label: "YouTube-Link"
         name: "youtube"
@@ -86,4 +91,5 @@ collections:
             summary: "{{fields.alt}}"
             fields:
               - {label: "Bild", name: "image", widget: "image"}
-              - {label: "Bildbeschreibung", name: "alt", widget: "string", required: false}
+              - {label: "Bildbeschreibung (Alternativtext)", name: "alt", widget: "string", required: false}
+              - {label: "Bildunterschrift (nur in der Großansicht)", name: "caption", widget: "string", required: false}
