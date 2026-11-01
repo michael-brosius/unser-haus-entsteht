@@ -7,10 +7,22 @@
     "body": "Noch rollen keine Bagger, aber auf unserem Grundstück tut sich etwas: Viebrockhaus ist zur Vermessung vor Ort und nimmt alles genau unter die Lupe. Schließlich muss für unser neues Zuhause jeder Zentimeter stimmen. \n\nUnd auch wir sind jetzt bestens ausgerüstet: Von unserem Bauleiter haben wir unsere ersten Baustellenhelme bekommen. Die mussten natürlich gleich ausprobiert werden – inklusive Erinnerungsfoto! So langsam fühlt sich unser Hausbau-Abenteuer richtig echt an.",
     "html": "<p>Noch rollen keine Bagger, aber auf unserem Grundstück tut sich etwas: Viebrockhaus ist zur Vermessung vor Ort und nimmt alles genau unter die Lupe. Schließlich muss für unser neues Zuhause jeder Zentimeter stimmen. </p>\n<p>Und auch wir sind jetzt bestens ausgerüstet: Von unserem Bauleiter haben wir unsere ersten Baustellenhelme bekommen. Die mussten natürlich gleich ausprobiert werden – inklusive Erinnerungsfoto! So langsam fühlt sich unser Hausbau-Abenteuer richtig echt an.</p>",
     "photos": [
-      "/images/uploads/vorbereitung02.jpg",
-      "/images/uploads/vorbereitung03.jpg",
-      "/images/uploads/vermessung03.jpg",
-      "/images/uploads/vorbereitung01.jpg"
+      {
+        "image": "/images/uploads/vorbereitung02.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/images/uploads/vorbereitung03.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/images/uploads/vermessung03.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/images/uploads/vorbereitung01.jpg",
+        "caption": ""
+      }
     ],
     "youtube": ""
   },
@@ -22,8 +34,14 @@
     "body": "Über 90 Jahre stand das kleine Haus aus dem Jahr 1935 auf diesem Grundstück. Mit seinen rund 80 Quadratmetern Wohnfläche hat es viele Jahrzehnte überdauert. \n\nJetzt heißt es Abschied nehmen: Stück für Stück verschwindet das alte Gebäude und macht Platz für unser neues Zuhause. Ein besonderer Moment – und der erste große sichtbare Schritt auf unserem Weg zum eigenen Haus.",
     "html": "<p>Über 90 Jahre stand das kleine Haus aus dem Jahr 1935 auf diesem Grundstück. Mit seinen rund 80 Quadratmetern Wohnfläche hat es viele Jahrzehnte überdauert. </p>\n<p>Jetzt heißt es Abschied nehmen: Stück für Stück verschwindet das alte Gebäude und macht Platz für unser neues Zuhause. Ein besonderer Moment – und der erste große sichtbare Schritt auf unserem Weg zum eigenen Haus.</p>",
     "photos": [
-      "/images/uploads/abriss01.jpg",
-      "/images/uploads/abriss02.jpg"
+      {
+        "image": "/images/uploads/abriss01.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/images/uploads/abriss02.jpg",
+        "caption": ""
+      }
     ],
     "youtube": ""
   },
@@ -35,7 +53,10 @@
     "body": "Manchmal weiß man schon beim ersten Besuch: Das ist es! Als wir das Grundstück zum ersten Mal besichtigten, war uns schnell klar, dass wir hier unser neues Zuhause bauen möchten. \n\nDas kleine Häuschen aus dem Jahr 1935 hatte zwar seinen ganz eigenen Charme, würde aber einem Neubau weichen müssen. Das Grundstück hingegen war genau das, wonach wir gesucht hatten. Und so wurde aus einer ersten Besichtigung der Anfang unseres Hausbau-Abenteuers.",
     "html": "<p>Manchmal weiß man schon beim ersten Besuch: Das ist es! Als wir das Grundstück zum ersten Mal besichtigten, war uns schnell klar, dass wir hier unser neues Zuhause bauen möchten. </p>\n<p>Das kleine Häuschen aus dem Jahr 1935 hatte zwar seinen ganz eigenen Charme, würde aber einem Neubau weichen müssen. Das Grundstück hingegen war genau das, wonach wir gesucht hatten. Und so wurde aus einer ersten Besichtigung der Anfang unseres Hausbau-Abenteuers.</p>",
     "photos": [
-      "/images/uploads/grundstueck01.jpg"
+      {
+        "image": "/images/uploads/grundstueck01.jpg",
+        "caption": ""
+      }
     ],
     "youtube": ""
   }
