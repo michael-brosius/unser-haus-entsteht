@@ -43,11 +43,11 @@ def read_entry(path):
     normalized_photos = []
     for photo in photos:
         if isinstance(photo, str):
-            normalized_photos.append(photo)
+            normalized_photos.append({"image": photo, "caption": ""})
         elif isinstance(photo, dict):
             image = photo.get("image")
             if image:
-                normalized_photos.append(str(image))
+                normalized_photos.append({"image": str(image), "caption": str(photo.get("caption") or "")})
 
     entry_date = date_as_text(metadata.get("date"))
 
