@@ -45,6 +45,14 @@
       {
         "image": "/images/uploads/vermessung07.jpg",
         "caption": "Die beiden anderen Hausseiten."
+      },
+      {
+        "image": "/images/uploads/grundriss01.jpg",
+        "caption": "Grundriss Erdgeschoss."
+      },
+      {
+        "image": "/images/uploads/grundriss02.jpg",
+        "caption": "Grundriss Dachgeschoss."
       }
     ],
     "youtube": ""
