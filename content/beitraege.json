@@ -28,23 +28,23 @@
   },
   {
     "id": "2026-06-09-flurplan",
-    "title": "Flurplan",
+    "title": "Unser Haus nimmt Gestalt an.",
     "date": "2026-06-10",
     "phase": "Vorbereitung",
-    "body": "Text...",
-    "html": "<p>Text...</p>",
+    "body": "Noch steht unser neues Haus nur auf dem Papier – aber langsam können wir uns immer besser vorstellen, wie es einmal aussehen wird!\n\nMit dem Lageplan und den Bauzeichnungen wird unsere Planung jetzt richtig greifbar. Wir sehen, wo unser Haus auf dem Grundstück stehen wird, wie es aus den verschiedenen Himmelsrichtungen aussieht und wie sich alles in die Umgebung einfügt.",
+    "html": "<p>Noch steht unser neues Haus nur auf dem Papier – aber langsam können wir uns immer besser vorstellen, wie es einmal aussehen wird!</p>\n<p>Mit dem Lageplan und den Bauzeichnungen wird unsere Planung jetzt richtig greifbar. Wir sehen, wo unser Haus auf dem Grundstück stehen wird, wie es aus den verschiedenen Himmelsrichtungen aussieht und wie sich alles in die Umgebung einfügt.</p>",
     "photos": [
       {
         "image": "/images/uploads/vermessung05.jpg",
-        "caption": "Flurplan"
+        "caption": "Der Lageplan zeigt die genaue Position des Hauses auf unserem Grundstück."
       },
       {
         "image": "/images/uploads/vermessung06.jpg",
-        "caption": "Ansicht 1"
+        "caption": "Unser Haus von Nordwesten und Nordosten."
       },
       {
         "image": "/images/uploads/vermessung07.jpg",
-        "caption": "Ansicht 2"
+        "caption": "Die beiden anderen Hausseiten."
       }
     ],
     "youtube": ""
