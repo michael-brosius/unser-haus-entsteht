@@ -27,6 +27,21 @@
     "youtube": ""
   },
   {
+    "id": "2026-06-09-flurplan",
+    "title": "Flurplan",
+    "date": "2026-06-10",
+    "phase": "Vorbereitung",
+    "body": "Text",
+    "html": "<p>Text</p>",
+    "photos": [
+      {
+        "image": "/images/uploads/vermessung04.jpg",
+        "caption": "Flurplan"
+      }
+    ],
+    "youtube": ""
+  },
+  {
     "id": "2026-03-07-abriss-der-altimmobilie",
     "title": "Platz für etwas Neues.",
     "date": "2026-03-08",
