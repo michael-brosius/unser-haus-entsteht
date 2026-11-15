@@ -96,6 +96,11 @@
   .lightbox-caption {left:15%; right:15%; bottom:max(8px,env(safe-area-inset-bottom)); font-size:11px; line-height:1.25; max-height:2.8em;}
   .lightbox-count {bottom:max(5px,env(safe-area-inset-bottom)); left:auto; right:max(12px,env(safe-area-inset-right)); transform:none; font-size:11px; background:rgba(0,0,0,.45); padding:3px 6px; border-radius:4px;}
 }
+/* Pinch-Zoom nur innerhalb der geöffneten mobilen Galerie */
+@media (hover:none) and (pointer:coarse) {
+  .lightbox.open {touch-action:none; overscroll-behavior:contain;}
+  .lightbox #large {touch-action:none; user-select:none; -webkit-user-select:none; -webkit-user-drag:none; transform-origin:center center; will-change:transform;}
+}
 </style></head><body><div class="fixed-hero" aria-hidden="true"></div><div class="wash" id="wash" aria-hidden="true"></div><nav class="nav" id="siteNav" aria-label="Hauptnavigation"><button class="menu-toggle" id="menuToggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button><div class="nav-links" id="navLinks"><a href="#start">Start</a><div class="nav-dropdown" id="diaryDropdown"><button type="button" class="dropdown-toggle" id="diaryToggle" aria-expanded="false" aria-controls="diarySubmenu">Bautagebuch <span aria-hidden="true">⌄</span></button><div class="submenu" id="diarySubmenu"><a href="#tagebuch">Übersicht</a><a href="#phase-01">Grundstückskauf</a><a href="#phase-02">Abriss der Altimmobilie</a><a href="#phase-03">Planung &amp; Vorbereitung</a><a href="#phase-04">Erdarbeiten</a><a href="#phase-05">Bodenplatte</a><a href="#phase-06">Rohbau &amp; Dach</a><a href="#phase-07">Innenausbau</a><a href="#phase-08">Einzug</a></div></div><a href="#ausblick">Galerie</a></div></nav><header class="hero" id="start"><div class="hero-copy"><div class="eyebrow" id="heroEyebrow">Ein Haus. Eine Geschichte.</div><h1 id="heroTitle">Unser Haus<br>entsteht.</h1><p id="heroSubtitle">Von der ersten Idee bis zum Einzug.<br>Wir nehmen euch mit auf unserem Weg.</p></div><span class="scrollcue">Scrollen ↓</span></header><div class="transition" aria-hidden="true"></div><main class="content" id="tagebuch"><section class="intro"><div class="section-tag" id="introTag">Willkommen auf unserem Bautagebuch</div><h2 id="introTitle">Aus einer Idee wird<br>ein Zuhause.</h2><p id="introText">Hier halten wir die großen Meilensteine und die kleinen Momente unseres Hausbaus fest. Mit Bildern, Geschichten und allem, was unterwegs passiert.</p></section><div id="phase-01" class="phase-target"></div><div id="phase-02" class="phase-target"></div><div id="phase-03" class="phase-target"></div><div id="phase-04" class="phase-target"></div><div id="phase-05" class="phase-target"></div><div id="phase-06" class="phase-target"></div><div id="phase-07" class="phase-target"></div><div id="phase-08" class="phase-target"></div><div class="cms-controls"><label for="phaseFilter">Beiträge anzeigen</label><select id="phaseFilter"><option value="">Alle Bauphasen · Neueste zuerst</option><option value="Grundstückskauf">Grundstückskauf</option><option value="Abriss">Abriss der Altimmobilie</option><option value="Vorbereitung">Planung &amp; Vorbereitung</option><option value="Erdarbeiten">Erdarbeiten</option><option value="Fundament">Bodenplatte</option><option value="Rohbau">Rohbau &amp; Dach</option><option value="Innenausbau">Innenausbau</option><option value="Einzug">Einzug</option></select></div><p id="cmsStatus" class="cms-status" role="status">Bautagebuch wird geladen …</p><div id="cmsEntries" aria-live="polite"></div><article class="entry" id="ausblick"><div class="entry-head"><div><time id="galleryTag">UNSER ZUKÜNFTIGES HAUS · ORIGINAL-RENDERINGS</time><h3 id="galleryTitle">So soll unser Haus einmal aussehen.</h3></div></div><p id="galleryText">Ein Blick in die Zukunft: Diese vier Visualisierungen zeigen, wie wir uns unser neues Zuhause vorstellen.</p><div id="houseGalleryImages"><img class="main-image" src="images/93772_hl(1).jpg" alt="Rendering des geplanten Hauses" loading="lazy"><div class="gallery"><img src="images/93772_hr(1).jpg" alt="Weitere Hausansicht" loading="lazy"><img src="images/93772_vl(1).jpg" alt="Weitere Hausansicht" loading="lazy"><img src="images/93772_vr(1).jpg" alt="Weitere Hausansicht" loading="lazy"></div></div></article><section class="timeline"><div class="section-tag">Unser Weg</div><h3>Die Bauphasen im Überblick</h3><div class="steps"><a class="step" href="#phase-01"><strong>01</strong>Grundstückskauf</a><a class="step" href="#phase-02"><strong>02</strong>Abriss der Altimmobilie</a><a class="step" href="#phase-03"><strong>03</strong>Planung &amp; Vorbereitung</a><a class="step" href="#phase-04"><strong>04</strong>Erdarbeiten</a><a class="step" href="#phase-05"><strong>05</strong>Bodenplatte</a><a class="step" href="#phase-06"><strong>06</strong>Rohbau &amp; Dach</a><a class="step" href="#phase-07"><strong>07</strong>Innenausbau</a><a class="step" href="#phase-08"><strong>08</strong>Einzug</a></div></section></main><footer class="footer"><span>Unser Haus entsteht · Ein persönliches Bautagebuch</span><div class="footer-legal"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><span>Mit Liebe dokumentiert.</span></div></footer><div class="lightbox" id="lightbox" role="dialog" aria-label="Bildansicht"><button class="close" id="close" aria-label="Schließen">×</button><button class="lightbox-arrow prev" id="lightboxPrev" type="button" aria-label="Vorheriges Bild">‹</button><img id="large" alt="Vergrößerte Ansicht"><button class="lightbox-arrow next" id="lightboxNext" type="button" aria-label="Nächstes Bild">›</button><p class="lightbox-caption" id="lightboxCaption" hidden></p><span class="lightbox-count" id="lightboxCount" aria-live="polite"></span></div><script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script><script>
 const wash=document.getElementById('wash');let pending=false;function update(){const vh=window.innerHeight;const y=window.scrollY;wash.style.opacity=Math.min(.91,Math.max(0,(y-vh*.30)/(vh*1.12)*.91));pending=false}window.addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(update)}},{passive:true});update();const nav=document.getElementById('siteNav'),menuToggle=document.getElementById('menuToggle');function updateNav(){nav.classList.toggle('scrolled',window.scrollY>window.innerHeight*.65)}window.addEventListener('scroll',updateNav,{passive:true});updateNav();menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'Menü schließen':'Menü öffnen')});document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label','Menü öffnen')}));const diaryDropdown=document.getElementById('diaryDropdown'),diaryToggle=document.getElementById('diaryToggle');function closeDiary(){diaryDropdown.classList.remove('expanded');diaryToggle.setAttribute('aria-expanded','false')}diaryToggle.addEventListener('click',()=>{const isOpen=diaryDropdown.classList.toggle('expanded');diaryToggle.setAttribute('aria-expanded',String(isOpen))});document.querySelectorAll('.submenu a').forEach(a=>a.addEventListener('click',closeDiary));document.addEventListener('click',e=>{if(!diaryDropdown.contains(e.target))closeDiary()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDiary()});const lb=document.getElementById('lightbox');
 const large=document.getElementById('large');
@@ -103,8 +108,27 @@ const prevButton=document.getElementById('lightboxPrev');
 const nextButton=document.getElementById('lightboxNext');
 const counter=document.getElementById('lightboxCount');
  const caption=document.getElementById('lightboxCaption');
-let currentImages=[],currentIndex=0,lastFocused=null,touchStartX=null;
+let currentImages=[],currentIndex=0,lastFocused=null;
+let photoScale=1,photoX=0,photoY=0,gesture=null,ignoreSwipe=false;
+function clampPhoto(){
+  if(photoScale<=1){photoScale=1;photoX=0;photoY=0;return;}
+  const box=large.getBoundingClientRect();
+  const naturalRatio=(large.naturalWidth||16)/(large.naturalHeight||9);
+  const viewportRatio=box.width/Math.max(1,box.height);
+  const fittedWidth=naturalRatio>viewportRatio?box.width:box.height*naturalRatio;
+  const fittedHeight=naturalRatio>viewportRatio?box.width/naturalRatio:box.height;
+  const maxX=Math.max(0,(fittedWidth*photoScale-box.width)/2);
+  const maxY=Math.max(0,(fittedHeight*photoScale-box.height)/2);
+  photoX=Math.max(-maxX,Math.min(maxX,photoX));
+  photoY=Math.max(-maxY,Math.min(maxY,photoY));
+}
+function applyPhotoZoom(){clampPhoto();large.style.transform=`translate3d(${photoX}px,${photoY}px,0) scale(${photoScale})`;}
+function resetPhotoZoom(){photoScale=1;photoX=0;photoY=0;gesture=null;ignoreSwipe=false;large.style.transform='';}
+function fingerDistance(a,b){return Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);}
+function fingerMidpoint(a,b){return {x:(a.clientX+b.clientX)/2,y:(a.clientY+b.clientY)/2};}
+
 function displayImage(){
+  resetPhotoZoom();
   const image=currentImages[currentIndex];if(!image)return;
   large.src=image.src;large.alt=image.alt||'Vergrößerte Ansicht';
   const captionText=(image.dataset.caption||'').trim();caption.textContent=captionText;caption.hidden=!captionText;
@@ -120,15 +144,63 @@ function openGallery(clicked){
   document.body.style.overflow='hidden';document.getElementById('close').focus();
 }
 function moveImage(step){if(!currentImages.length)return;currentIndex=(currentIndex+step+currentImages.length)%currentImages.length;displayImage();}
-function closeGallery(){if(!lb.classList.contains('open'))return;lb.classList.remove('open');document.body.style.overflow='';large.removeAttribute('src');if(lastFocused&&typeof lastFocused.focus==='function')lastFocused.focus();}
+function closeGallery(){if(!lb.classList.contains('open'))return;lb.classList.remove('open');document.body.style.overflow='';resetPhotoZoom();large.removeAttribute('src');if(lastFocused&&typeof lastFocused.focus==='function')lastFocused.focus();}
 // Event delegation includes photos added dynamically by the CMS.
 document.addEventListener('click',e=>{const img=e.target.closest('article.entry .main-image,article.entry .gallery img');if(img)openGallery(img)});
 prevButton.addEventListener('click',()=>moveImage(-1));nextButton.addEventListener('click',()=>moveImage(1));
 document.getElementById('close').addEventListener('click',closeGallery);
 lb.addEventListener('click',e=>{if(e.target===lb)closeGallery()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeGallery();closeDiary();}if(!lb.classList.contains('open'))return;if(e.key==='ArrowLeft'){e.preventDefault();moveImage(-1)}if(e.key==='ArrowRight'){e.preventDefault();moveImage(1)}if(e.key==='Tab'){const controls=[document.getElementById('close'),...(!prevButton.hidden?[prevButton,nextButton]:[])];const i=controls.indexOf(document.activeElement);if(e.shiftKey&&i<=0){e.preventDefault();controls[controls.length-1].focus()}else if(!e.shiftKey&&i===controls.length-1){e.preventDefault();controls[0].focus()}}});
-lb.addEventListener('touchstart',e=>{touchStartX=e.changedTouches[0]?.screenX??null},{passive:true});
-lb.addEventListener('touchend',e=>{if(touchStartX===null)return;const delta=(e.changedTouches[0]?.screenX??touchStartX)-touchStartX;touchStartX=null;if(Math.abs(delta)>45)moveImage(delta<0?1:-1)},{passive:true});
+// Ein Finger: zwischen Bildern wischen; nach dem Zoomen: Bild verschieben.
+// Zwei Finger: stufenloser Pinch-Zoom (1x bis 4x), ohne ungewollten Bildwechsel.
+lb.addEventListener('touchstart',e=>{
+  if(!lb.classList.contains('open') || e.target.closest('button'))return;
+  if(e.touches.length===2){
+    const mid=fingerMidpoint(e.touches[0],e.touches[1]);
+    gesture={kind:'pinch',distance:fingerDistance(e.touches[0],e.touches[1]),scale:photoScale,x:photoX,y:photoY,mid};
+    ignoreSwipe=true;
+  }else if(e.touches.length===1){
+    gesture={kind:photoScale>1?'pan':'swipe',x:e.touches[0].clientX,y:e.touches[0].clientY,startX:photoX,startY:photoY};
+  }
+},{passive:true});
+lb.addEventListener('touchmove',e=>{
+  if(!lb.classList.contains('open')||!gesture)return;
+  if(e.touches.length===2){
+    if(gesture.kind!=='pinch'){
+      const mid=fingerMidpoint(e.touches[0],e.touches[1]);
+      gesture={kind:'pinch',distance:fingerDistance(e.touches[0],e.touches[1]),scale:photoScale,x:photoX,y:photoY,mid};
+    }
+    e.preventDefault();ignoreSwipe=true;
+    const mid=fingerMidpoint(e.touches[0],e.touches[1]);
+    photoScale=Math.min(4,Math.max(1,gesture.scale*fingerDistance(e.touches[0],e.touches[1])/Math.max(1,gesture.distance)));
+    photoX=gesture.x+(mid.x-gesture.mid.x);
+    photoY=gesture.y+(mid.y-gesture.mid.y);
+    applyPhotoZoom();
+  }else if(e.touches.length===1&&gesture.kind==='pan'){
+    e.preventDefault();
+    photoX=gesture.startX+e.touches[0].clientX-gesture.x;
+    photoY=gesture.startY+e.touches[0].clientY-gesture.y;
+    applyPhotoZoom();
+  }else if(e.touches.length===1&&gesture.kind==='swipe'){
+    e.preventDefault();
+  }
+},{passive:false});
+lb.addEventListener('touchend',e=>{
+  if(!gesture)return;
+  if(gesture.kind==='pinch'){
+    ignoreSwipe=true;
+    if(e.touches.length<2){applyPhotoZoom();gesture=null;}
+    return;
+  }
+  if(gesture.kind==='swipe'&&!ignoreSwipe&&e.touches.length===0){
+    const dx=(e.changedTouches[0]?.clientX??gesture.x)-gesture.x;
+    const dy=(e.changedTouches[0]?.clientY??gesture.y)-gesture.y;
+    if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)*1.2)moveImage(dx<0?1:-1);
+  }
+  if(e.touches.length===0){gesture=null;ignoreSwipe=false;}
+},{passive:true});
+lb.addEventListener('touchcancel',()=>{gesture=null;ignoreSwipe=false;},{passive:true});
+window.addEventListener('resize',()=>{if(lb.classList.contains('open')&&photoScale>1)applyPhotoZoom();});
 
 /* Entries are generated by GitHub Actions from the Decap CMS Markdown files. */
 const phaseIds={'Grundstückskauf':'phase-01','Abriss':'phase-02','Vorbereitung':'phase-03','Erdarbeiten':'phase-04','Fundament':'phase-05','Rohbau':'phase-06','Innenausbau':'phase-07','Einzug':'phase-08'};
