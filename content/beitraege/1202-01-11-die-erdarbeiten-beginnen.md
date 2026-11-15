@@ -7,6 +7,8 @@ photos:
     caption: Baustellenbesprechung im Abendlicht.
   - image: /images/uploads/erdarbeiten02.jpg
     caption: Helen präsentiert die frisch ausgehobene Fläche.
+  - image: /images/uploads/erdarbeiten03.jpg
+    caption: "Schweres Gerät im Einsatz: Mehmet und sein Team bewegen ordentlich Erde."
 ---
 Jetzt wird es ernst auf unserem Grundstück! Die Erdarbeiten haben begonnen und plötzlich verändert sich das Gelände von Tag zu Tag. Große Bagger bewegen jede Menge Erde und bereiten den Untergrund für unser zukünftiges Zuhause vor.
 
