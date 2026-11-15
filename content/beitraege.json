@@ -98,5 +98,20 @@
       }
     ],
     "youtube": ""
+  },
+  {
+    "id": "1202-01-11-die-erdarbeiten-beginnen",
+    "title": "Die Erdarbeiten beginnen",
+    "date": "1202-01-12",
+    "phase": "Erdarbeiten",
+    "body": "Test",
+    "html": "<p>Test</p>",
+    "photos": [
+      {
+        "image": "/images/uploads/master-2560x1440.jpg",
+        "caption": "Test"
+      }
+    ],
+    "youtube": ""
   }
 ]
