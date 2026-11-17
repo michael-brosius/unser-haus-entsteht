@@ -14,6 +14,14 @@ photos:
   - image: /images/uploads/erdarbeiten05.jpg
     caption: Ein ganz neuer Blick auf unser Grundstück – hier soll schon bald unser
       Haus stehen.
+  - image: /images/uploads/erdarbeiten06.jpg
+    caption: Baggerfahrer Sven verteilt den Sand.
+  - image: /images/uploads/erdarbeiten07.jpg
+    caption: Die alte Hecke kommt weg.
+  - image: /images/uploads/erdarbeiten08.jpg
+    caption: Der Sandfläche wird mit dem Laser auf den Zentimeter genau ausgerichtet.
+  - image: /images/uploads/erdarbeiten09.jpg
+    caption: Damit das Haus später nicht einsinkt, wird verdichtet.
 ---
 Jetzt wird es ernst auf unserem Grundstück! Die Erdarbeiten haben begonnen und plötzlich verändert sich das Gelände von Tag zu Tag. Große Bagger bewegen jede Menge Erde und bereiten den Untergrund für unser zukünftiges Zuhause vor.
 
